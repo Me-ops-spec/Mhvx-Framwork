@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Jul  6 12:57:25 2021 as: /usr/bin/nmap -sS -sV -O -oX ../result/scan.xml -p 21,22,25,30,50,75,80,110,120,130,443,8080,8443 facebook.com -->
+<nmaprun scanner="nmap" args="/usr/bin/nmap -sS -sV -O -oX ../result/scan.xml -p 21,22,25,30,50,75,80,110,120,130,443,8080,8443 facebook.com" start="1625590645" startstr="Tue Jul  6 12:57:25 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="13" services="21-22,25,30,50,75,80,110,120,130,443,8080,8443"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="69.171.250.35" addrtype="ipv4"/>
+<hostnames>
+<hostname name="facebook.com" type="user"/>
+</hostnames>
+</hosthint>
